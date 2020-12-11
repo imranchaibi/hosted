@@ -38,13 +38,28 @@ h2{
 .links{
   
     text-align: center;
-    padding-bottom: 40px;
+  
   
   }
   
   .media{
+      display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+  li a {
+    display: block;
+    color: black;
+    
+    padding: 16px;
+    text-decoration: none;
+ 
+    
+  }
+  li {
+    float: left;
+    list-style-type: none;
+    
   }
   @media (max-width: 800px) {
       .links{
